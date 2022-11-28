@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  border-bottom: 4px solid silver;
+  background: #333;
+  color: #fff;
+  line-height: 70px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid silver;
+  padding: 0.4em;
+}
+
+.menu a:not(:last-of-type) {
+  margin-right: 0.7em;
+}
+
+.menu a:hover {
+  color: #fff;
+  background: #333;
+  border: 1px solid #fff;
+  border-radius: 10%;
+}
+.calc {
+  margin: 50px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 25px;
+  background: #000;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  padding: 18px;
+  box-shadow: 4px 4px 4px #4f4f4f;
+}
+
+.calc_screen {
+  height: 125px;
+  padding: 10px;
+  display: grid;
+  justify-items: end;
+  align-items: end;
+  margin-bottom: 20px;
+  border: grey 1.5px solid;
+  border-radius: 10px;
+  background: rgb(20, 20, 20);
+}
+
+.calc_screen p {
+  text-align: right;
+  font-size: 4rem;
+  margin: 0;
+  user-select: none;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  user-select: none;
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-areas:
+    "ac plus_minus percent division"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero point equal";
+  grid-gap: 7px;
+  justify-items: center;
+}
+
+.btn.zero {
+  grid-area: zero;
+  width: 100%;
+  border-radius: 34px;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn:active {
+  filter: brightness(90%);
+}
+
+.btn.bg_grey {
+  background: grey;
+}
+
+.btn.bg_orange {
+  background: #ff9501;
+}

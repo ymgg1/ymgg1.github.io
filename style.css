@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans;
+}
+
+body {
+  background: rgb(234, 252, 255);
+}
+
+#header,
+#footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  border-bottom: 4px solid silver;
+  background: #333;
+  color: #fff;
+  line-height: 70px;
+  margin-bottom: 50px;
+  float: left;
+  position: relative;
+}
+
+nav {
+  text-align: left;
+  margin-left: 10%;
+  user-select: none;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid silver;
+  padding: 0.4em;
+}
+
+.menu a:not(:last-of-type) {
+  margin-right: 0.7em;
+}
+
+.menu a:hover {
+  color: #fff;
+  background: #333;
+  border: 1px solid #fff;
+  border-radius: 10%;
+}
+
+#main {
+  width: 50%;
+  margin-left: 10%;
+  background: #fff9dc;
+  padding: 35px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.title-whole {
+  height: 225px;
+  display: flex;
+  background: #ffe5e5;
+  border-radius: 20px;
+  padding: 2.5%;
+}
+
+.left {
+  float: left;
+}
+
+.left:not(:last-of-type) {
+  margin-right: 25px;
+}
+
+.ltext {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.left img {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#aside {
+  width: 20%;
+  padding: 20px 2.5%;
+  margin-left: 5%;
+  background: #e5ffe7;
+  float: left;
+  position: relative;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+.hobbys {
+  background: rgb(199, 225, 255);
+  border-radius: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 2.5%;
+  padding-left: 4%;
+}
+
+.sheet {
+  background: rgb(213, 255, 229);
+  border-radius: 25px;
+  margin-bottom: 35px;
+  padding: 2.5%;
+}
+
+.review {
+  background: rgb(215, 255, 250);
+  border-radius: 25px;
+  margin-bottom: 35px;
+  padding: 2.5%;
+}
+
+.images {
+  background: rgb(255, 206, 206);
+  border-radius: 25px;
+  padding: 2.5%;
+  text-align: center;
+}
+
+.images h3 {
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.images img {
+  box-shadow: 0px 0px 20px rgb(97, 97, 97);
+}
+
+#footer {
+  margin-bottom: 0;
+  margin-top: 50px;
+  border-top: 4px solid silver;
+  border-bottom: 0;
+}
+
+#some {
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  left: 1%;
+  top: 5%;
+}
+
+#some:hover {
+  background: rgb(255, 59, 59);
+}
+
+#some:active {
+  background: rgb(177, 0, 0);
+}
+
+.std {
+  text-align: start;
+}
+
+.std td {
+  padding: 1em;
+}
+
+.sheet h3 {
+  margin-bottom: 15px;
+}
+
+.review h3 {
+  margin-bottom: 15px;
+}
+
+.marg {
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 50%;
+  user-select: none;
+}
+
+.imgmarg {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.images img:hover {
+  filter: brightness(105%);
+}
+
+.images img:active {
+  filter: brightness(90%);
+}
